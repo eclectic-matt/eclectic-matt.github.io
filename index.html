@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>EclecticMatt Home</title>
+<link rel='icon' type='image/png' href='EAD logo v2 16px.png'>
+<meta property='og:image' content='EAD logo v2 64px.png' />
+<meta property='og:image:url' content='EAD logo v2 64px.png' />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<base href='https://eclectic-matt.github.io'/>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<style>
+
+:root{
+  --header-colour: #1B0648;   /* Russian Violet - deep purple */
+  --bg-colour: #9BF3F0;       /* Celeste - light blue */
+  --aside-colour: #473198;    /* Blue pigment - light purple */
+  --menu-colour: #235924;     /* Lincoln Green - dark green */
+  --menu-hl-colour: #9EE37D;  /* Light green */
+  --font-colour: #ffffff;     /* White */
+  --font-hl-colour: #000000;  /* Black */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--bg-colour);
+  color: var(--font-hl-colour);
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  background-color: var(--header-colour);
+  color: var(--font-colour) !important;
+  padding: 15px;
+  text-align: center;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: var(--menu-colour);
+  color: var(--font-colour);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: var(--menu-hl-colour);
+  color: var(--font-hl-colour);
+}
+
+a {
+  color: var(--font-colour);
+}
+
+a:visited, a:hover, a.bodyLink{
+  color: var(--font-hl-color);
+}
+
+a.headLink{
+  text-decoration: none;
+}
+
+.aside {
+  background-color: var(--aside-colour);
+  padding: 15px;
+  color: var(--font-colour);
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: var(--aside-colour);
+  color: var(--font-colour);
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+</style>
+
+</head>
+<body>
+<div class="header">
+  <h1><a class='headLink' href='../Github-Pages-Home/index.html'>EclecticMatt's Homepage</a></h1>
+</div>
+
+<div class="row">
+	<div class="col-3 col-s-3 menu">
+		<ul>
+			<li><a href='../Isolation-Bots'>Isolation Bots</a></li>
+			<li><a href='../Virtual-Pub-Quiz/'>Virtual Pub Quiz</a></li>
+			<li><a href='../web-deployment/'>My Old Website</a></li>
+			<li><a href='../web-deployment/fractals'>Fractals</a></li>
+			
+			<!--div class="col-12 col-s-12 menu"-->
+        <li class="w3-red">\/ Board Games \/</li>
+				<ul>
+					<li class="w3-red"><a href='../web-deployment/carcassonne-rules'>Carcassonne</a></li>
+					<li class="w3-red"><a href='../web-deployment/cartographers.html'>Cartographers</a></li>
+					<li class="w3-red"><a href='../web-deployment/board/auztralia/setup.html'>AuZtralia</a></li>
+					<li class="w3-red"><a href='../web-deployment/board/botc/rules.html'>Blood on the Clocktower</a></li>
+				</ul>
+			<!--/div>
+			
+			<div class="col-12 col-s-3 menu"-->
+        <li class="w3-blue">\/ Digital Games \/</li>
+				<ul>
+					<li class="w3-blue"><a href='../'>Peep Commander (to follow)</a></li>
+					<li class="w3-blue"><a href='../web-deployment/tower-defence.html'>Peep Defence (to follow)</a></li>
+				</ul>
+			<!--/div-->
+		</ul>
+	</div>
+
+  <div class="col-6 col-s-9">
+    <h1>Welcome to my collection!</h1>
+    <p>This page gathers some of the stuff available on my Github Pages!</p>
+    <p>Follow the links in the menu to find some of my current popular stuff, such as the Isolation Bots and my Virtual Pub Quizzes!</p>
+    <h2>Who am I?</h2>
+    <p>My name is Matt and I have been making funky content for the web for over 10 years.</p>
+    <p>You can take a look at some of the weird stuff I used to cook up on the "My Old Website" page</p><em>(note: this was written in PHP and I'm slowly getting around to re-writing it to work on Github so this is still a work-in-progress).</em>
+    <h2>Help Support My Work!</h2>
+    <p>You can help support my work on <a class='bodyLink' href='https://ko-fi.com/eclecticmatt'>Ko-fi</a> or <a class='bodyLink' href='https://www.patreon.com/join/EclecticMatt?'>Patreon</a> if you like what I'm doing!</p>
+    <div class='w3-container w3-row-padding w3-center'>
+
+      <div class='w3-half w3-center'>
+        <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#5d0b9c', 'X8X71KC1W');kofiwidget2.draw();</script>
+      </div>
+
+      <div class='w3-half w3-center'>
+        <a href="https://www.patreon.com/bePatron?u=6155523" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+      </div>
+
+    </div>
+    <h2>Why Support Me?</h2>
+    <p>I'm trying to get through these testing times with my mental and financial health intact, which is proving challenging!</p>
+    <p>A small donation will show that people value these tools and will allow me to spend more time on development to make them even better!</p>
+
+  </div>
+
+  <div class="col-3 col-s-12">
+    <div class="aside">
+      <h2>Other Github Stuff</h2>
+      <p>I've also got a bunch of other stuff on Github which you can check out by visiting <a href='https://github.com/eclectic-matt/'>my main Github profile</a></p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+
+  <h3>Thanks for stopping by!</h3>
+
+  <div class='w3-container w3-row-padding w3-center'>
+
+      <div class='w3-half w3-center'>
+        <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#5d0b9c', 'X8X71KC1W');kofiwidget2.draw();</script>
+      </div>
+
+      <div class='w3-half w3-center'>
+        <a href="https://www.patreon.com/bePatron?u=6155523" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+      </div>
+
+    </div>
+
+    <b>(c) Matt Tiernan 2020</b>
+</div>
+
+
+</body>
+</html>
